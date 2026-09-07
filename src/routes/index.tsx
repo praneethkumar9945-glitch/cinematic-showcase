@@ -4,16 +4,16 @@ import { useEffect } from 'react'
 export const Route = createFileRoute('/')({
   head: () => ({
     meta: [
-      { title: 'GIREESH — Artist · Creative · Storyteller' },
+      { title: 'PRX — Artist · Creative · Storyteller' },
       {
         name: 'description',
         content:
-          'Welcome to my world. Cinematic portfolio of Gireesh — artist, creative, storyteller.',
+          'Welcome to my world. Cinematic portfolio of PRX — artist, creative, storyteller.',
       },
-      { property: 'og:title', content: 'GIREESH — Artist · Creative · Storyteller' },
+      { property: 'og:title', content: 'PRX — Artist · Creative · Storyteller' },
       {
         property: 'og:description',
-        content: 'Welcome to my world. Cinematic portfolio of Gireesh.',
+        content: 'Welcome to my world. Cinematic portfolio of PRX.',
       },
       { property: 'og:type', content: 'website' },
       { name: 'twitter:card', content: 'summary_large_image' },
@@ -29,7 +29,7 @@ function Home() {
 
   return (
     <main style={{ minHeight: '100vh', background: '#000' }}>
-      <h1 className="sr-only">GIREESH — Artist, Creative, Storyteller</h1>
+      <h1 className="sr-only">PRX — Artist, Creative, Storyteller</h1>
     </main>
   )
 }
