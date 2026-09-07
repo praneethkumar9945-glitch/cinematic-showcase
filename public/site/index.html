@@ -7,14 +7,14 @@
 <meta name="description" content="Welcome to my world. Portfolio of Gireesh — artist, creative, storyteller.">
 <meta name="theme-color" content="#000000">
 
-<link rel="preload" href="public/fonts/anton-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="public/fonts/oswald-500.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="public/fonts/oswald-700.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="src/styles/app.css">
-<link rel="stylesheet" href="src/styles/universe.css">
-<link rel="stylesheet" href="src/styles/chrono.css">
-<link rel="stylesheet" href="src/styles/projects.css">
-<link rel="stylesheet" href="src/styles/finale.css">
+<link rel="preload" href="/site/fonts/anton-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/site/fonts/oswald-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/site/fonts/oswald-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/site/src/styles/app.css">
+<link rel="stylesheet" href="/site/src/styles/universe.css">
+<link rel="stylesheet" href="/site/src/styles/chrono.css">
+<link rel="stylesheet" href="/site/src/styles/projects.css">
+<link rel="stylesheet" href="/site/src/styles/finale.css">
 </head>
 <body>
 
@@ -129,8 +129,8 @@
       <li>Spline</li><li>Claude</li><li>ChatGPT</li><li>Midjourney</li>
     </ul>
     <video id="uniFilm" muted playsinline loop preload="metadata"
-           poster="public/media/universe.jpg" aria-hidden="true">
-      <source src="public/media/universe.mp4" type="video/mp4">
+           poster="/site/media/universe.jpg" aria-hidden="true">
+      <source src="/site/media/universe.mp4" type="video/mp4">
     </video>
     <div class="universe__veil" id="uniVeil" aria-hidden="true"></div>
   </section>
@@ -176,7 +176,7 @@
       <div class="gallery__world">
         <div class="gallery__deck" id="galleryDeck"></div>
         <img class="gallery__person" id="galleryPerson"
-             src="public/projects/person.png" alt="" draggable="false">
+             src="/site/projects/person.png" alt="" draggable="false">
       </div>
 
       <h2 class="g-label g-label--projects" id="galleryTitle">Projects</h2>
@@ -240,6 +240,6 @@
   </div>
 </footer>
 
-<script type="module" src="src/main.js"></script>
+<script type="module" src="/site/src/main.js"></script>
 </body>
 </html>

@@ -21,7 +21,7 @@ import { initFinale } from './scene6/boot6.js';
 // scroll offset mid-boot yanks the visitor (and any scripted anchor) around
 if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
 
-const MEDIA = 'public/media/';
+const MEDIA = '/site/media/';
 const MIN_BLACK = 620;          // the darkness must be felt, even on a fast line
 
 const root = document.documentElement;
@@ -69,8 +69,8 @@ async function main() {
   await Promise.all([
     fontsReady().then(tick),
     app.stage.loadTextures({
-      grunge: 'public/tex/grunge.png',
-      grain: 'public/tex/grain.png',
+      grunge: '/site/tex/grunge.png',
+      grain: '/site/tex/grain.png',
     }).then(tick),
   ]);
 
